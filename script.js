@@ -12,6 +12,6 @@ document.querySelector("#submit").addEventListener("click", () => {
   }
 
   document.body.style.background = `linear-gradient(to right, #${hexcode1}, #${hexcode2})`;
-  document.querySelector("#hexcode1").textContent = hexcode1;
+  document.querySelector("#hexcode1").textContent = hexcode2;
   document.querySelector("#hexcode2").textContent = hexcode2;
 });
